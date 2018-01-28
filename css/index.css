@@ -172,7 +172,7 @@
   position: relative;
 }
 
-#hero-image-block .skill-image {
+#hero-image-block .skill-image, .heal-image{
   width: 20%;
 }
 

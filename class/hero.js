@@ -20,4 +20,8 @@ class Hero extends BaseCharacter {
     super.getHurt(damage);
     this.updateHtml(this.hpElement, this.hurtElement);
   }
+  heal(character) {
+    this.hp = this.maxHp;
+    this.updateHtml(this.hpElement, this.hurtElement);
+  }
 }
